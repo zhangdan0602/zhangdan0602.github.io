@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
@@ -17,42 +16,49 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a third-year phd candidate in [Knowledge Engineering Group (KEG)](https://keg.cs.tsinghua.edu.cn/) at Tsinghua, supervised by [Prof. Jie Tang](https://scholar.google.ca/citations?user=n1zDCkQAAAAJ&hl=en). I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by [Prof. Ping Luo](https://www.thss.tsinghua.edu.cn/faculty/luoping.htm). My research focus on scientific language model and graph representaion learning. 
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
-
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.edu/) hosted by [Prof. Yisong Yue](http://www.yisongyue.com/).
+<!-- Click [here](https://jin-ying.github.io/files/resume.pdf) to see my updated CV. -->
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+- *2023.09* [Best Student Paper, ECML-PKDD 2023](https://2023.ecmlpkdd.org/program/awards/).
+
+
+<!-- # 🔥 News
+
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
+
+# 📝 Preprints
+- **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang. [SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950), **Arxiv 2024**. [**[PDF]**](https://arxiv.org/abs/2401.07950) [**[Code&Data]**](https://github.com/THUDM/SciGLM) 
+
+# 📚 Publications
+
+- **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, Jie Tang. [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf), **WWW 2024**. [**[PDF]**](https://arxiv.org/abs/2401.15635) [**[Code&Data]**](https://github.com/THUDM/RecDCL)
+
+- **Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang. [ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf), **WWW 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) [**[Code&Data]**](https://github.com/THUDM/ApeGNN) [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
+
+- **Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang. [DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235), **TKDE 2024**. [**[PDF]**](https://ieeexplore.ieee.org/document/10164235) [**[Code&Data]**](https://github.com/THUDM/DropConn) 
+
+- Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, wenzheng feng, Yuxiao Dong, and Jie Tang. [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551), **KDD 2023**. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) [**[Code&Data]**](https://github.com/thudm/WinGNN)
+
+- Ming Zhou, **Dan Zhang**, Yuandong Wang, Yangliao Geng, and Jie Tang. [Detecting Social Bot on the Fly using Contrastive Learning](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468), **CIKM 2023**. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468)
+
+- ``Best Student Paper`` Ming Zhou, Wenzheng Feng, Yifan Zhu, **Dan Zhang**, Yuxiao Dong, and Jie Tang. [SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention Networks](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf), **ECML-PKDD 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf) 
+
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.02 - (now)*, Visiting Student Researcher at [Computing + Mathematical Sciences, Caltech](https://www.cms.caltech.edu/)
+- *2021.08 - (now)*, Ph.D. at [Department of Computer Science Technology, Tsinghua Univeristy](https://www.cs.tsinghua.edu.cn/).
+- *2018.08 - 2021.06*, M.E. at [School of Software, Tsinghua Univeristy](https://www.thss.tsinghua.edu.cn/).
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- # 💬 Invited Talks
+
+- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+- *2023.08 - 2024.02*, [Zhipu AI](https://www.zhipuai.cn/), Beijing, China. -->
