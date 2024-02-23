@@ -1,0 +1,4 @@
+
+I am a third-year phd candidate in [Knowledge Engineering Group (KEG)](https://keg.cs.tsinghua.edu.cn/) at Tsinghua, supervised by [Prof. Jie Tang](https://scholar.google.ca/citations?user=n1zDCkQAAAAJ&hl=en). I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by [Prof. Ping Luo](https://www.thss.tsinghua.edu.cn/faculty/luoping.htm). My research focus on scientific language model and graph representaion learning.
+
+I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.edu/) hosted by [Prof. Yisong Yue](http://www.yisongyue.com/).
