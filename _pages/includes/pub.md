@@ -1,7 +1,17 @@
 
 # 📚 Publications
 
-- **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, Jie Tang. [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf), **WWW 2024**. [**[PDF]**](https://arxiv.org/abs/2401.15635) [**[Code&Data]**](https://github.com/THUDM/RecDCL)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
+
+- **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, Jie Tang. 
+
+[**[PDF]**](https://arxiv.org/abs/2401.15635) \| [**[Code&Data]**](https://github.com/THUDM/RecDCL)
+</div>
+</div>
+
 - **Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang. [ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf), **WWW 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) [**[Code&Data]**](https://github.com/THUDM/ApeGNN) [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
 - **Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang. [DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235), **TKDE 2024**. [**[PDF]**](https://ieeexplore.ieee.org/document/10164235) [**[Code&Data]**](https://github.com/THUDM/DropConn)
 - Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, Wenzheng feng, Yuxiao Dong, and Jie Tang. [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551), **KDD 2023**. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) [**[Code&Data]**](https://github.com/thudm/WinGNN)
