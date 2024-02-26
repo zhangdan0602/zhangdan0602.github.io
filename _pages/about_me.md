@@ -36,7 +36,7 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 
 # 📚 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="30%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
