@@ -1,6 +1,6 @@
 # 📝 Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="30%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
