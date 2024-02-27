@@ -38,7 +38,7 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 
 **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang.
 
-[**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM) \| [**[Model]**(https://huggingface.co/zd21/SciGLM-6B)]
+[**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM) \| [**[Model]**](https://huggingface.co/zd21/SciGLM-6B)
 </div>
 </div>
 
