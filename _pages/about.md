@@ -6,17 +6,96 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 <span class='anchor' id='about-me'></span>
-{% include_relative includes/intro.md %}
 
-{% include_relative includes/honers.md %}
+I am a third-year phd candidate in [Knowledge Engineering Group (KEG)](https://keg.cs.tsinghua.edu.cn/) at Tsinghua, supervised by [Prof. Jie Tang](https://scholar.google.ca/citations?user=n1zDCkQAAAAJ&hl=en). I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by [Prof. Ping Luo](https://www.thss.tsinghua.edu.cn/faculty/luoping.htm). My research focus on scientific language model and graph representaion learning.
 
-{% include_relative includes/preprints.md %}
+I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.edu/) hosted by [Prof. Yisong Yue](http://www.yisongyue.com/).
 
-<!-- {% include_relative includes/news.md %}  -->
 
-{% include_relative includes/pub.md %}
+# 🎖 Honors and Awards
 
-{% include_relative includes/educations.md %}
+- *2023.09* [Best Student Paper, ECML-PKDD 2023](https://2023.ecmlpkdd.org/program/awards/).
 
-{% include_relative includes/services.md %}
+<!-- # 🔥 News
+
+- *2022.02*:  🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+-->
+
+# 📝 Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950)
+
+**Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang.
+
+[**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM) \| [**[Model]**(https://huggingface.co/zd21/SciGLM-6B)]
+</div>
+</div>
+
+# 📚 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/RecDCL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/abs/2401.15635)
+
+**Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, and Jie Tang. 
+
+[**[PDF]**](https://arxiv.org/abs/2401.15635) \| [**[Code&Data]**](https://github.com/THUDM/RecDCL)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2023</div><img src='../../images/ApeGNN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://dl.acm.org/doi/pdf/10.1145/3543507.3583530)
+
+**Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang.
+
+[**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3543507.3583530) \| [**[Code&Data]**](https://github.com/THUDM/ApeGNN) \| [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2024</div><img src='../../images/DropConn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235)
+
+**Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang.
+
+[**[PDF]**](https://ieeexplore.ieee.org/document/10164235) \| [**[Code&Data]**](https://github.com/THUDM/DropConn)
+</div>
+</div>
+
+- ``KDD 2023`` [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551). Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, Wenzheng Feng, Yuxiao Dong, and Jie Tang. \| [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) \| [**[Code&Data]**](https://github.com/thudm/WinGNN)
+- ``CIKM 2023`` [Detecting Social Bot on the Fly using Contrastive Learning](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468). Ming Zhou, **Dan Zhang**, Yuandong Wang, Yangliao Geng, and Jie Tang. \| [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468)
+- ``ECML-PKDD 2023`` <span style="color:red">(Best Student Paper)</span> [SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention Networks](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf). Ming Zhou, Wenzheng Feng, Yifan Zhu, **Dan Zhang**, Yuxiao Dong, and Jie Tang. \| [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf)
+
+# 📖 Educations
+
+- *2024.02 - (now)*, Visiting Student Researcher at [Computing + Mathematical Sciences, Caltech](https://www.cms.caltech.edu/).
+- *2021.08 - (now)*, Ph.D. at [Department of Computer Science Technology, Tsinghua Univeristy](https://www.cs.tsinghua.edu.cn/).
+- *2018.08 - 2021.06*, M.E. at [School of Software, Tsinghua Univeristy](https://www.thss.tsinghua.edu.cn/).
+
+<!-- # 💬 Invited Talks
+
+- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
+# 💻 Internships
+
+- *2023.08 - 2024.02*, [Zhipu AI](https://www.zhipuai.cn/), Beijing, China. -->
+
+# 💬 Services
+
+- **Teaching assistant** Advanced Machine Learning (2023 Fall), Programing and Training (2023 Summer)
