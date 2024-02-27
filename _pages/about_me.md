@@ -36,11 +36,11 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
+[SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950)
 
 - **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang.
 
- [**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM)
+[**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM)
 </div>
 </div>
 
@@ -48,12 +48,12 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 
 # 📚 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/RecDCL.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
 
-- **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, Jie Tang. 
+- **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, and Jie Tang. 
 
 [**[PDF]**](https://arxiv.org/abs/2401.15635) \| [**[Code&Data]**](https://github.com/THUDM/RecDCL)
 </div>
@@ -63,6 +63,8 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 <div class='paper-box-text' markdown="1">
 
 [ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf)
+
+**Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang.
 
 [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) \| [**[Code&Data]**](https://github.com/THUDM/ApeGNN) \| [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
 </div>
@@ -74,6 +76,8 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 <div class='paper-box-text' markdown="1">
 
 [DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235)
+
+**Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang.
 
 [**[PDF]**](https://ieeexplore.ieee.org/document/10164235) \| [**[Code&Data]**](https://github.com/THUDM/DropConn)
 </div>
