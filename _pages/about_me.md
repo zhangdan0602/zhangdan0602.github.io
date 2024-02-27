@@ -32,11 +32,23 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 
 # 📝 Preprints
 
-- **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang. [SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950), **Arxiv 2024**. [**[PDF]**](https://arxiv.org/abs/2401.07950) [**[Code&Data]**](https://github.com/THUDM/SciGLM)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
+
+- **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang.
+
+ [**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM)
+</div>
+</div>
+
+<!-- - **Dan Zhang**, Ziniu Hu, Sining Zhoubian, Zhengxiao Du, Kaiyu Yang, Zihan Wang, Yisong Yue, Yuxiao Dong, and Jie Tang. [SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950), **Arxiv 2024**. [**[PDF]**](https://arxiv.org/abs/2401.07950) [**[Code&Data]**](https://github.com/THUDM/SciGLM) -->
 
 # 📚 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="30%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2024</div><img src='../../images/BCL_FCL.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf)
@@ -47,10 +59,27 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 </div>
 </div>
 
-<!-- - **Dan Zhang**, Yangliao Geng, Wenwen Gong, Zhongang Qi, Zhiyu Chen, Xing Tang, Ying Shan, Yuxiao Dong, Jie Tang. [RecDCL: Dual Contrastive Learning for Recommendation](https://arxiv.org/pdf/2401.15635.pdf), **WWW 2024**. [**[PDF]**](https://arxiv.org/abs/2401.15635) [**[Code&Data]**](https://github.com/THUDM/RecDCL) -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2023</div><img src='../../images/ApeGNN.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang. [ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf), **WWW 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) [**[Code&Data]**](https://github.com/THUDM/ApeGNN) [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
-- **Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang. [DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235), **TKDE 2024**. [**[PDF]**](https://ieeexplore.ieee.org/document/10164235) [**[Code&Data]**](https://github.com/THUDM/DropConn)
+[ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf)
+
+[**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) \| [**[Code&Data]**](https://github.com/THUDM/ApeGNN) \| [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf)
+</div>
+</div>
+
+<!-- - **Dan Zhang**, Yifan Zhu, Yuxiao Dong, Yuandong Wang, Wenzheng Feng, Evgeny Kharlamov, and Jie Tang. [ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf), **WWW 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/WWW23-Zhang-ApeGNN.pdf) [**[Code&Data]**](https://github.com/THUDM/ApeGNN) [**[Slides_pdf]**](https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf) -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TKDE 2024</div><img src='../../images/DropConn.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235)
+
+[**[PDF]**](https://ieeexplore.ieee.org/document/10164235) \| [**[Code&Data]**](https://github.com/THUDM/DropConn)
+</div>
+</div>
+
+<!-- - **Dan Zhang**, Wenzheng Feng, Yuandong Wang, Zhongang Qi, Ying Shan, and Jie Tang. [DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction](https://ieeexplore.ieee.org/document/10164235), **TKDE 2024**. [**[PDF]**](https://ieeexplore.ieee.org/document/10164235) [**[Code&Data]**](https://github.com/THUDM/DropConn) -->
 - Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, Wenzheng feng, Yuxiao Dong, and Jie Tang. [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551), **KDD 2023**. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) [**[Code&Data]**](https://github.com/thudm/WinGNN)
 - Ming Zhou, **Dan Zhang**, Yuandong Wang, Yangliao Geng, and Jie Tang. [Detecting Social Bot on the Fly using Contrastive Learning](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468), **CIKM 2023**. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468)
 - ``Best Student Paper`` Ming Zhou, Wenzheng Feng, Yifan Zhu, **Dan Zhang**, Yuxiao Dong, and Jie Tang. [SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention Networks](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf), **ECML-PKDD 2023**. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf)
