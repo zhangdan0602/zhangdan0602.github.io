@@ -31,7 +31,7 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 
 # 📝 Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2024</div><img src='../../images/SciGLM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning](https://arxiv.org/abs/2401.07950)
@@ -41,6 +41,8 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 [**[PDF]**](https://arxiv.org/abs/2401.07950) \| [**[Code&Data]**](https://github.com/THUDM/SciGLM) \| [**[Model]**](https://huggingface.co/zd21/SciGLM-6B)
 </div>
 </div>
+
+- ``arXiv 2024`` [OAG-Bench: A Human-Curated Benchmark for Academic Graph Mining](https://arxiv.org/abs/2402.15810). Fanjin Zhang, Shijie Shi, Yifan Zhu, Bo Chen, Yukuo Cen, Jifan Yu, Yelin Chen, Lulu Wang, Qingfei Zhao, Yuqing Cheng, Tianyi Han, Yuwei An, **Dan Zhang**, Weng Lam Tam, Kun Cao, Yunhe Pang, Xinyu Guan, Huihui Yuan, Jian Song, Xiaoyan Li, Yuxiao Dong, and Jie Tang. [**[PDF]**](https://arxiv.org/abs/2402.15810) \| [**[Code&Data]**](https://www.aminer.cn/data/)
 
 # 📚 Publications
 
@@ -77,9 +79,9 @@ I am now a visiting student researcher at [Caltech CMS](https://www.cms.caltech.
 </div>
 </div>
 
-- ``KDD 2023`` [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551). Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, Wenzheng Feng, Yuxiao Dong, and Jie Tang. \| [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) \| [**[Code&Data]**](https://github.com/thudm/WinGNN)
-- ``CIKM 2023`` [Detecting Social Bot on the Fly using Contrastive Learning](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468). Ming Zhou, **Dan Zhang**, Yuandong Wang, Yangliao Geng, and Jie Tang. \| [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468)
-- ``ECML-PKDD 2023`` <span style="color:red">(Best Student Paper)</span> [SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention Networks](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf). Ming Zhou, Wenzheng Feng, Yifan Zhu, **Dan Zhang**, Yuxiao Dong, and Jie Tang. \| [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf)
+- ``KDD 2023`` [WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551). Yifan Zhu, Fangpeng Cong, **Dan Zhang**, Wenwen Gong, Qika Lin, Wenzheng Feng, Yuxiao Dong, and Jie Tang. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3580305.3599551) \| [**[Code&Data]**](https://github.com/thudm/WinGNN)
+- ``CIKM 2023`` [Detecting Social Bot on the Fly using Contrastive Learning](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468). Ming Zhou, **Dan Zhang**, Yuandong Wang, Yangliao Geng, and Jie Tang. [**[PDF]**](https://dl.acm.org/doi/pdf/10.1145/3583780.3615468)
+- ``ECML-PKDD 2023`` <span style="color:red">(Best Student Paper)</span> [SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention Networks](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf). Ming Zhou, Wenzheng Feng, Yifan Zhu, **Dan Zhang**, Yuxiao Dong, and Jie Tang. [**[PDF]**](https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf)
 
 # 📖 Educations
 
