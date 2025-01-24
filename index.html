@@ -42,19 +42,7 @@
                     <name>Dan Zhang</name>
                   </p>
                   <p>
-                    I am a fourth-year phd candidate in the <a style="text-decoration: none" target="_blank"
-                      href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua,
-                    supervised by <a style="text-decoration: none" target="_blank"
-                      href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focus on
-                    scientific language model and graph representaion learning.
-                    I was a visiting student researcher at Caltech in the <a style="text-decoration: none"
-                      target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS)
-                      Department</a>, hosted by <a style="text-decoration: none" target="_blank"
-                      href="http://www.yisongyue.com/">Yisong Yue</a>.
-                      I recieved my
-                    Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a
-                      style="text-decoration: none" target="_blank"
-                      href="https://www.thss.tsinghua.edu.cn/faculty/luoping.htm">Ping Luo</a>.
+                    I am a fourth-year phd candidate in the <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua supervised by <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focus on LLM slef-training, LLM reasoning, and graph representaion learning. I was a visiting student researcher at Caltech in the <a style="text-decoration: none" target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS) Department</a>, hosted by <a style="text-decoration: none" target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>. I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a style="text-decoration: none" target="_blank" href="https://www.thss.tsinghua.edu.cn/faculty/luoping.htm">Ping Luo</a>.
                   </p>
 
                   <p style="text-align:center">
@@ -82,6 +70,8 @@
                 <td>
                   <heading>Honors and Awards</heading>
                   <ul>
+                    <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">National Scholarship for Ph.D Student</a> @THUCS 2024</li>
+                    <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">Zhongshimo Scholarship for Ph.D Student</a> @THUCS 2024</li>
                     <li><a target="_blank" href="https://2023.ecmlpkdd.org/program/awards/">Best Student Paper</a> @
                       ECML-PKDD 2023</li>
                     <li>Student Travel Awards @ WWW 2023</li>
@@ -91,7 +81,6 @@
             </tbody>
           </table>
 
-
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
@@ -100,15 +89,43 @@
                   <heading>Research</heading>
                 </td>
               </tr>
-
             </tbody>
           </table>
-
-
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr id="PEFT">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/PEFT.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2501.13787">
+                    <papertitle>Parameter-Efficient Fine-Tuning for Foundation Models</papertitle>
+                  </a>
+                  <br/>
+                  <strong>Dan Zhang*,</strong>
+                  <a target="_blank" href="https://openreview.net/profile?id=~Tao_Feng3">Tao Feng*</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Lilong_Xue1">Lilong Xue*</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>arXiv</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2501.13787">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models">paper list</a>
+                  /
+                  <a target="_blank" href="https://awesome-peft-for-foundation-models.github.io/">homepage</a>
+                  <p>
+                    <em>This survey aims to provide a comprehensive overview of PEFT techniques applied to diverse FMs and address critical gaps in understanding the techniques, trends, and applications. This survey provides a valuable resource for both newcomers and experts seeking to understand and use the power of PEFT across FMs. </em>
+                  </p>
+                </td>
+              </tr>
+
               <tr id="ReST-MCTS*">
                 <td style="padding:5px;width:17%;vertical-align:middle">
                   <div class="one">
@@ -122,7 +139,7 @@
                   <br/>
                   <strong>Dan Zhang*,</strong>
                   <a>Sining Zhoubian*</a>,
-                  <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a>,
+                  <a target="_blank" href="https://acbull.github.io/">Ziniu Hu*</a>,
                   <a target="_blank" href="http://www.yisongyue.com/index.php">Yisong Yue</a>,
                   <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
@@ -151,461 +168,514 @@
                 </td>
               </tr>
 
+              <tr id="SPaR">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/SPaR.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2403.14888">
+                    <papertitle>SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models</papertitle>
+                  </a>
+                  <br/>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=WcAly8wAAAAJ">Jiale Cheng*</a>, 
+                  <a target="_blank" href="https://github.com/xiao9905">Xiao Liu*</a>, 
+                  <a target="_blank" href="https://wangcunxiang.github.io/">Cunxiang Wang</a>, 
+                  <a target="_blank" href="https://scholar.google.com/citations?user=YR4Lp0QAAAAJ&hl=en">Xiaotao Gu</a>, 
+                  <a>Yida Lu</a>, 
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>, 
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>, 
+                  <a target="_blank" href="https://www.cs.virginia.edu/~hw5x/">Hongning Wang</a>,
+                  and <a target="_blank" href="https://coai.cs.tsinghua.edu.cn/hml">Minlie Huang</a>
+                  <br />
+                  <em>ICLR</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2412.11605">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/thu-coai/SPaR">code</a>
+                  /
+                  <a target="_blank" href="https://huggingface.co/datasets/CCCCCC/SPaR">data</a>
+                  <p>
+                    <em>SPaR</em> is a self-play framework integrating tree-search self-refinement to yield valid and comparable preference pairs free from distractions. By playing against itself, an LLM employs a tree-search strategy to refine its previous responses with respect to the instruction while minimizing unnecessary variations.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="sciglm_stop()" onmouseover="sciglm_start()" bgcolor="#ffffd0" id="sciglm"></tr>
-              <!-- <tr id="sciglm"> -->
-              <td style="padding:5px;width:17%;vertical-align:middle">
-                <!-- <div class="one">
+                <!-- <tr id="sciglm"> -->
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <!-- <div class="one">
+                        <img src='images/SciGLM.png' width="170">
+                      </div> -->
+                  <div class="one">
+                    <div class="two" id='sciglm_image'>
                       <img src='images/SciGLM.png' width="170">
-                    </div> -->
-                <div class="one">
-                  <div class="two" id='sciglm_image'>
+                    </div>
                     <img src='images/SciGLM.png' width="170">
                   </div>
-                  <img src='images/SciGLM.png' width="170">
-                </div>
-                <script type="text/javascript">
-                  function sciglm_start() {
-                    document.getElementById('sciglm_image').style.opacity = "1";
-                  }
+                  <script type="text/javascript">
+                    function sciglm_start() {
+                      document.getElementById('sciglm_image').style.opacity = "1";
+                    }
 
-                  function sciglm_stop() {
-                    document.getElementById('sciglm_image').style.opacity = "0";
-                  }
-                  sciglm_stop()
-                </script>
+                    function sciglm_stop() {
+                      document.getElementById('sciglm_image').style.opacity = "0";
+                    }
+                    sciglm_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2401.07950">
+                    <papertitle>SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation
+                      and Tuning</papertitle>
+                  </a>
+                  <br/>
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a>,
+                  <a>Sining Zhoubian</a>,
+                  <a target="_blank" href="https://zxdu.xyz/">Zhengxiao Du</a>,
+                  <a target="_blank" href="https://yangky11.github.io/">Kaiyu Yang</a>,
+                  <a>Zihan Wang</a>,
+                  <a target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>NeurIPS Datasets and Benchmarks Track</em>, 2024
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2401.07950">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/SciGLM">code & data</a>
+                  /
+                  <a target="_blank" href="https://huggingface.co/zd21/SciGLM-6B">model</a>
+                  <p>
+                    <em>SciGLM</em> is a suite of scientific language models able to conduct college-level scientific
+                    reasoning. Central to our approach is a novel self-reflective instruction annotation framework to
+                    address the data scarcity challenge in the science domain.
+                    <!-- This framework leverages existing LLMs to generate step-by-step reasoning for unlabelled scientific questions, followed by a process of self-reflective critic-and-revise.  -->
+                    Applying this framework, we curated <em>SciInstruct</em>, a
+                    diverse and high-quality dataset encompassing physics, chemistry, math, and formal proofs.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="RecDCL">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/BCL_FCL.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2401.15635">
+                    <papertitle>RecDCL: Dual Contrastive Learning for Recommendation</papertitle>
+                  </a>
+                  <br />
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=YIPChWoAAAAJ">Wenwen Gong</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=zJvrrusAAAAJ">Zhongang Qi</a>,
+                  <a>Zhiyu Chen</a>,
+                  <a target="_blank" href="https://xingt-tang.github.io/">Xing Tang</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?user=4oXBp9UAAAAJ&hl=en">Ying Shan</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>WWW</em>, 2024, <font color="red"><strong>Oral</strong></font>
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2401.15635">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/RecDCL">code & data</a>
+                  /
+                  <a target="_blank"
+                    href="https://github.com/THUDM/RecDCL/blob/main/WWW'24%20RecDCL%20Pre-final.pdf">slides_pdf</a>
+                  <p></p>
+                  <p>
+                    <em>RecDCL</em> is a dual contrastive learning recommendation framework. In this work, we investigate how to employ both batch-wise CL (BCL) and feature-wise CL (FCL) for recommendation. We theoretically analyze the relation between BCL and FCL, and find that combining BCL and FCL helps eliminate redundant solutions but never misses an optimal solution.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="MCAP">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/MCAP.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://dl.acm.org/doi/10.1145/3698193">
+                    <papertitle>MCAP: Low-Pass GNNs with Matrix Completion for Academic Recommendations</papertitle>
+                  </a>
+                  <br />
+                  <strong>Dan Zhang,</strong>
+                  <a>Shaojie Zheng</a>,
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  <a>Huihui Yuan</a>,
+                  <a>Jibing Gong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>TOIS</em>, 2024
+                  <br />
+                  <a target="_blank" href="https://dl.acm.org/doi/10.1145/3698193">PDF</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/MCAP">code & data</a>
+                  <p></p>
+                  <p>
+                    <em>MCAP</em> uses relation-aware GNNs and executes low-pass propagation with matrix completion to enhance academic paper recommendations.
+                  </p>
+                </td>
+              </tr>
+              
+              <tr id="AutoRE">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/AutoRE.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2403.14888">
+                    <papertitle>AutoRE: Document-Level Relation Extraction with Large Language Models</papertitle>
+                  </a>
+                  <br/>
+                  <a>Lilong Xue*</a>,
+                  <strong>Dan Zhang*,</strong>
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>ACL SDT</em>, 2024
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2403.14888">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/AutoRE">code</a>
+                  /
+                  <a target="_blank" href="https://models.aminer.cn/neptune/">platform</a>
+                  <p>
+                    <em>AutoRE</em> is an end-to-end DocRE model that adopts a novel RE extraction paradigm named RHF (Relation-Head-Facts). AutoRE does not rely on the assumption of known relation options, making it more reflective of real-world scenarios.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="oag-bench">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/oab-overview-en.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2402.15810">
+                    <papertitle>OAG-Bench: A Human-Curated Benchmark for Academic Graph Mining</papertitle>
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=V-e7-ooAAAAJ">Fanjin Zhang</a>,
+                  <a>Shijie Shi</a>,
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  <a target="_blank" href="https://allanchen95.github.io/">Bo Chen</a>,
+                  <a target="_blank" href="https://www.cenyk1230.top/">Yukuo Cen</a>,
+                  <a target="_blank" href="https://yujifan0326.github.io/">Jifan Yu</a>,
+                  <a>Yelin Chen</a>,
+                  <a>Lulu Wang</a>,
+                  <a>Qingfei Zhao</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=Q3_LMWAAAAAJ">Yuqing Cheng</a>,
+                  <a>Tianyi Han</a>,
+                  <a>Yuwei An</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a>Weng Lam Tam</a>,
+                  <a>Kun Cao</a>,
+                  <a>Yunhe Pang</a>,
+                  <a>Xinyu Guan</a>,
+                  <a>Huihui Yuan</a>,
+                  <a>Jian Song</a>,
+                  <a>Xiaoyan Li</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>KDD</em>, 2024
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2402.15810">arXiv</a>
+                  /
+                  <a target="_blank" href="https://www.aminer.cn/data/">code & data</a>
+                  /
+                  <a target="_blank" href="https://www.biendata.xyz/kdd2024/">OAG-Challenge @ KDD Cup 2024</a>
+                  <p>
+                    We present <em>OAG-Bench</em>, a comprehensive, multi-aspect, and fine-grained human-curated benchmark
+                    based
+                    on the Open Academic Graph (OAG). OAG-Bench covers 10 tasks, 20 datasets, 70+ baselines, and 120+
+                    experimental results to date.
+                    <!-- We propose new data annotation strategies for certain tasks and offer a suite of data pre-processing codes, algorithm implementations, and standardized evaluation protocols to facilitate
+                            academic graph mining. -->
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="ApeGNN">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/ApeGNN.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3543507.3583530">
+                    <papertitle>ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation</papertitle>
+                  </a>
+                  <br />
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
+                  <a target="_blank" href=https://scholar.google.com/citations?user=-slpMF8AAAAJ&hl=zh-CN">Evgeny
+                    Kharlamov</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>WWW</em>, 2023
+                  <br />
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3543507.3583530">PDF</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/ApeGNN">code & data</a>
+                  /
+                  <a target="_blank"
+                    href="https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf">slides_pdf</a>
+                  <p>
+                    <em>ApeGNN</em> develops a node-wise adaptive diffusion mechanism for information aggregation, in which
+                    each
+                    node is enabled to adaptively decide its diffusion weights based on the local structure (e.g., degree).
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="DropConn">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/DropConn.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://ieeexplore.ieee.org/document/10164235">
+                    <papertitle>DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction
+                    </papertitle>
+                  </a>
+                  <br />
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=zJvrrusAAAAJ">Zhongang Qi</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?user=4oXBp9UAAAAJ&hl=en">Ying Shan</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>TKDE</em>, 2023
+                  <br />
+                  <a target="_blank" href="https://ieeexplore.ieee.org/document/10164235">PDF</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/DropConn">code & data</a>
+                  <p>
+                    <em>DropConn</em> is an adaptive data augmentation strategy, which better leverages edge features and assigns weights for chemical bonds to emphasize their importance, and generates robust representations for molecule graph property prediction.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="WinGNN">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/WinGNN.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599551">
+                    <papertitle>WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window</papertitle>
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  <a>Fangpeng Cong</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=YIPChWoAAAAJ">Wenwen Gong</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=k8BKz0MAAAAJ">Qika Lin</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>KDD</em>, 2023
+                  <br />
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599551">PDF</a>
+                  /
+                  <a target="_blank" href="https://github.com/thudm/WinGNN">code & data</a>
+                  <p>
+                    <em>WinGNN</em> models dynamic graphs by combining a simple graph neural network model with
+                    meta-learning
+                    strategies and implementing a time-encoder-free dynamic graph coding process through a stochastic
+                    gradient
+                    aggregation mechanism.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="CBD">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/CBD.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3583780.3615468">
+                    <papertitle>Detecting Social Bot on the Fly using Contrastive Learning</papertitle>
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>CIKM</em>, 2023
+                  <br />
+                  <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3583780.3615468">PDF</a>
+                  <p>
+                    <em>CBD</em> is characterized by a two-stage model learning strategy: a contrastive pre-training stage
+                    to
+                    mine generalization patterns from massive unlabeled social graphs, followed by a semi-supervised
+                    fine-tuning
+                    stage to model task-specific knowledge latent in social graphs with a few annotations.
+                    <!-- The above strategy endows our model with promising detection performance under an extreme scarcity of labeled data. -->
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="SIRAN">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/SIRAN_1.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank"
+                    href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">
+                    <papertitle>SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention
+                      Networks
+                    </papertitle>
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>ECML-PKDD</em>, 2023, <font color="red"><strong>Best Student Paper</strong></font>
+                  <br />
+                  <a target="_blank"
+                    href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">PDF</a>
+                  <p>
+                    We analyze human-bot networks and propose <em>SIRAN</em>, which combines relation attention with initial
+                    residual connection to reduce and prevent the noise aggregated from neighbors to improve the capability
+                    of
+                    distinguishing different kinds of nodes on social graphs with heterophily. Then we use a consistency
+                    loss to
+                    boost the detection performance of the model for limited annotated data.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- <tr id="LGB">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/LGB.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank"
+                    href="">
+                    <papertitle>LGB
+                    </papertitle>
+                  </a>
+                  <br />
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>In submission</em>, 2024
+                  <br/>
+                  <a target="_blank"
+                    href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">PDF</a>
+                  <p>
+                    
+                  </p>
+                </td>
+              </tr> -->
+
+            </tbody>
+          </table>
+
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+            <tr>
+              <td>
+                <heading>Education</heading>
+                <!-- <p>My works are covered by:</p> -->
+                <ul>
+                  <li>2024.02 - 2024.07, Visiting Student Researcher at <a target="_blank"
+                      href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences, Caltech</a></li>
+                  <li>2021.08 - present, Ph.D. at <a target="_blank" href="https://www.cs.tsinghua.edu.cn/">Department of
+                      Computer Science Technology, Tsinghua university</a></li>
+                  <li>2018.08 - 2021.06, M.E. at <a target="_blank" href="https://www.thss.tsinghua.edu.cn/">
+                      School of Software, Tsinghua university</a></li>
+                </ul>
               </td>
-              <td style="padding:20px;width:83%;vertical-align:middle">
-                <a target="_blank" href="https://arxiv.org/abs/2401.07950">
-                  <papertitle>SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation
-                    and Tuning</papertitle>
-                </a>
-                <br/>
-                <strong>Dan Zhang,</strong>
-                <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a>,
-                <a>Sining Zhoubian</a>,
-                <a target="_blank" href="https://zxdu.xyz/">Zhengxiao Du</a>,
-                <a target="_blank" href="https://yangky11.github.io/">Kaiyu Yang</a>,
-                <a>Zihan Wang</a>,
-                <a target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>,
-                <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-                and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+            </tr>
+          </tbody>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+            <tr>
+              <td>
+                <heading>Talk</heading>
+                <ul>
+                  <li>June 2024, <a target="_blank" href="https://dolcit.cms.caltech.edu/">Caltech DOLCIT Seminar</a></li>
+                  <li>April 2024, <a target="_blank" href="http://rsrg.cms.caltech.edu/">Caltech Rigorous Systems Research
+                      Group</a></li>
+                  <li>March 2024, <a target="_blank" href="https://www.vision.caltech.edu/">Caltech Vision Group</a></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody>
+            <tr>
+              <td>
+                <heading>Teaching</heading>
+                <ul>
+                  <li>Teaching Assistant, Advanced Machine Learning, 2023 Fall, Tsinghua University</li>
+                  <li>Teaching Assistant, Programing and Training, 2023 Summer, Tsinghua University</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:0px">
                 <br />
-                <em>NeurIPS Datasets and Benchmarks Track</em>, 2024
-                <br />
-                <a target="_blank" href="https://arxiv.org/abs/2401.07950">arXiv</a>
-                /
-                <a target="_blank" href="https://github.com/THUDM/SciGLM">code & data</a>
-                /
-                <a target="_blank" href="https://huggingface.co/zd21/SciGLM-6B">model</a>
-                <p>
-                  <em>SciGLM</em> is a suite of scientific language models able to conduct college-level scientific
-                  reasoning. Central to our approach is a novel self-reflective instruction annotation framework to
-                  address the data scarcity challenge in the science domain.
-                  <!-- This framework leverages existing LLMs to generate step-by-step reasoning for unlabelled scientific questions, followed by a process of self-reflective critic-and-revise.  -->
-                  Applying this framework, we curated <em>SciInstruct</em>, a
-                  diverse and high-quality dataset encompassing physics, chemistry, math, and formal proofs.
+                <a href="https://clustrmaps.com/site/1c1hb"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=AoDMbfXlFW0wy3ctEGGNxoAZopeKhjyVdGNuXDTuE_w&cl=ffffff" /></a>
+                <p style="text-align:right;font-size:small;">
+                  Website template credit: <a target="_blank" href="https://jonbarron.info/"
+                    style="text-align:right;font-size:small;">Jon Barron</a>
                 </p>
               </td>
-      </tr>
-
-
-      <tr id="AutoRE">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/AutoRE.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://arxiv.org/abs/2403.14888">
-            <papertitle>AutoRE: Document-Level Relation Extraction with Large Language Models</papertitle>
-          </a>
-          <br/>
-          <a>Lilong Xue*</a>,
-          <strong>Dan Zhang*,</strong>
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>ACL SDT</em>, 2024
-          <br />
-          <a target="_blank" href="https://arxiv.org/abs/2403.14888">arXiv</a>
-          /
-          <a target="_blank" href="https://github.com/THUDM/AutoRE">code</a>
-          /
-          <a target="_blank" href="https://models.aminer.cn/neptune/">platform</a>
-          <p>
-            <em>AutoRE</em> is an end-to-end DocRE model that adopts a novel RE extraction paradigm named RHF (Relation-Head-Facts). AutoRE does not rely on the assumption of known relation options, making it more reflective of real-world scenarios.
-          </p>
-        </td>
-      </tr>
-
-
-
-      <tr id="oag-bench">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/oab-overview-en.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://arxiv.org/abs/2402.15810">
-            <papertitle>OAG-Bench: A Human-Curated Benchmark for Academic Graph Mining</papertitle>
-          </a>
-          <br />
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=V-e7-ooAAAAJ">Fanjin Zhang</a>,
-          <a>Shijie Shi</a>,
-          <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
-          <a target="_blank" href="https://allanchen95.github.io/">Bo Chen</a>,
-          <a target="_blank" href="https://www.cenyk1230.top/">Yukuo Cen</a>,
-          <a target="_blank" href="https://yujifan0326.github.io/">Jifan Yu</a>,
-          <a>Yelin Chen</a>,
-          <a>Lulu Wang</a>,
-          <a>Qingfei Zhao</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=Q3_LMWAAAAAJ">Yuqing Cheng</a>,
-          <a>Tianyi Han</a>,
-          <a>Yuwei An</a>,
-          <strong>Dan Zhang,</strong>
-          <a>Weng Lam Tam</a>,
-          <a>Kun Cao</a>,
-          <a>Yunhe Pang</a>,
-          <a>Xinyu Guan</a>,
-          <a>Huihui Yuan</a>,
-          <a>Jian Song</a>,
-          <a>Xiaoyan Li</a>,
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>KDD</em>, 2024
-          <br />
-          <a target="_blank" href="https://arxiv.org/abs/2402.15810">arXiv</a>
-          /
-          <a target="_blank" href="https://www.aminer.cn/data/">code & data</a>
-          /
-          <a target="_blank" href="https://www.biendata.xyz/kdd2024/">OAG-Challenge @ KDD Cup 2024</a>
-          <p>
-            We present <em>OAG-Bench</em>, a comprehensive, multi-aspect, and fine-grained human-curated benchmark
-            based
-            on the Open Academic Graph (OAG). OAG-Bench covers 10 tasks, 20 datasets, 70+ baselines, and 120+
-            experimental results to date.
-            <!-- We propose new data annotation strategies for certain tasks and offer a suite of data pre-processing codes, algorithm implementations, and standardized evaluation protocols to facilitate
-                    academic graph mining. -->
-          </p>
-        </td>
-      </tr>
-
-      <tr id="RecDCL">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/BCL_FCL.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://arxiv.org/abs/2401.15635">
-            <papertitle>RecDCL: Dual Contrastive Learning for Recommendation</papertitle>
-          </a>
-          <br />
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=YIPChWoAAAAJ">Wenwen Gong</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=zJvrrusAAAAJ">Zhongang Qi</a>,
-          <a>Zhiyu Chen</a>,
-          <a target="_blank" href="https://xingt-tang.github.io/">Xing Tang</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?user=4oXBp9UAAAAJ&hl=en">Ying Shan</a>,
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>WWW</em>, 2024, <font color="red"><strong>Oral</strong></font>
-          <br />
-          <a target="_blank" href="https://arxiv.org/abs/2401.15635">arXiv</a>
-          /
-          <a target="_blank" href="https://github.com/THUDM/RecDCL">code & data</a>
-          /
-          <a target="_blank"
-            href="https://github.com/THUDM/RecDCL/blob/main/WWW'24%20RecDCL%20Pre-final.pdf">slides_pdf</a>
-          <p></p>
-          <p>
-            <em>RecDCL</em> is a dual contrastive learning recommendation framework. In this work, we investigate
-            how to
-            employ both batch-wise CL (BCL) and feature-wise CL (FCL) for recommendation. We theoretically analyze
-            the
-            relation between BCL and FCL, and find that combining BCL and FCL helps eliminate redundant solutions
-            but
-            never misses an optimal solution.
-          </p>
-        </td>
-      </tr>
-
-      <tr id="ApeGNN">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/ApeGNN.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3543507.3583530">
-            <papertitle>ApeGNN: Node-Wise Adaptive Aggregation in GNNs for Recommendation</papertitle>
-          </a>
-          <br />
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
-          <a target="_blank" href=https://scholar.google.com/citations?user=-slpMF8AAAAJ&hl=zh-CN">Evgeny
-            Kharlamov</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>WWW</em>, 2023
-          <br />
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3543507.3583530">PDF</a>
-          /
-          <a target="_blank" href="https://github.com/THUDM/ApeGNN">code & data</a>
-          /
-          <a target="_blank"
-            href="https://github.com/THUDM/ApeGNN/blob/main/WWW'23%20ApeGNN%20Pre-final.pdf">slides_pdf</a>
-          <p>
-            <em>ApeGNN</em> develops a node-wise adaptive diffusion mechanism for information aggregation, in which
-            each
-            node is enabled to adaptively decide its diffusion weights based on the local structure (e.g., degree).
-          </p>
-        </td>
-      </tr>
-
-      <tr id="DropConn">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/DropConn.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://ieeexplore.ieee.org/document/10164235">
-            <papertitle>DropConn: Dropout Connection Based Random GNNs for Molecular Property Prediction
-            </papertitle>
-          </a>
-          <br />
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=zJvrrusAAAAJ">Zhongang Qi</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?user=4oXBp9UAAAAJ&hl=en">Ying Shan</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>TKDE</em>, 2024
-          <br />
-          <a target="_blank" href="https://ieeexplore.ieee.org/document/10164235">PDF</a>
-          /
-          <a target="_blank" href="https://github.com/THUDM/DropConn">code & data</a>
-          <p>
-            <em>DropConn</em> is an adaptive data augmentation strategy, which better leverages edge features and
-            assigns weights for chemical bonds to emphasize their importance, and generates robust representations
-            for
-            molecule graph property prediction.
-          </p>
-        </td>
-      </tr>
-
-      <tr id="WinGNN">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/WinGNN.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599551">
-            <papertitle>WinGNN: Dynamic Graph Neural Networks with Random Gradient Aggregation Window</papertitle>
-          </a>
-          <br />
-          <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
-          <a>Fangpeng Cong</a>,
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=YIPChWoAAAAJ">Wenwen Gong</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=k8BKz0MAAAAJ">Qika Lin</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>KDD</em>, 2023
-          <br />
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3580305.3599551">PDF</a>
-          /
-          <a target="_blank" href="https://github.com/thudm/WinGNN">code & data</a>
-          <p>
-            <em>WinGNN</em> models dynamic graphs by combining a simple graph neural network model with
-            meta-learning
-            strategies and implementing a time-encoder-free dynamic graph coding process through a stochastic
-            gradient
-            aggregation mechanism.
-          </p>
-        </td>
-      </tr>
-
-      <tr id="CBD">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/CBD.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3583780.3615468">
-            <papertitle>Detecting Social Bot on the Fly using Contrastive Learning</papertitle>
-          </a>
-          <br />
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>CIKM</em>, 2023
-          <br />
-          <a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3583780.3615468">PDF</a>
-          <p>
-            <em>CBD</em> is characterized by a two-stage model learning strategy: a contrastive pre-training stage
-            to
-            mine generalization patterns from massive unlabeled social graphs, followed by a semi-supervised
-            fine-tuning
-            stage to model task-specific knowledge latent in social graphs with a few annotations.
-            <!-- The above strategy endows our model with promising detection performance under an extreme scarcity of labeled data. -->
-          </p>
-        </td>
-      </tr>
-
-      <tr id="SIRAN">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/SIRAN_1.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank"
-            href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">
-            <papertitle>SIRAN: Semi-Supervised Social Bot Detection with Initial Residual Relation Attention
-              Networks
-            </papertitle>
-          </a>
-          <br />
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cjRV2IsAAAAJ">Wenzheng Feng</a>,
-          <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>ECML-PKDD</em>, 2023, <font color="red"><strong>Best Student Paper</strong></font>
-          <br />
-          <a target="_blank"
-            href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">PDF</a>
-          <p>
-            We analyze human-bot networks and propose <em>SIRAN</em>, which combines relation attention with initial
-            residual connection to reduce and prevent the noise aggregated from neighbors to improve the capability
-            of
-            distinguishing different kinds of nodes on social graphs with heterophily. Then we use a consistency
-            loss to
-            boost the detection performance of the model for limited annotated data.
-          </p>
-        </td>
-      </tr>
-
-      <!-- <tr id="LGB">
-        <td style="padding:5px;width:17%;vertical-align:middle">
-          <div class="one">
-            <img src='images/LGB.png' width="170">
-          </div>
-        </td>
-        <td style="padding:20px;width:83%;vertical-align:middle">
-          <a target="_blank"
-            href="">
-            <papertitle>LGB
-            </papertitle>
-          </a>
-          <br />
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=SjDlZzMAAAAJ">Ming Zhou</a>,
-          <strong>Dan Zhang,</strong>
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
-          <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=gA0xam0AAAAJ">Yangliao Geng</a>,
-          <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
-          and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
-          <br />
-          <em>In submission</em>, 2024
-          <br/>
-          <a target="_blank"
-            href="https://keg.cs.tsinghua.edu.cn/jietang/publications/PKDD23-Zhou-et-al-social-bot.pdf">PDF</a>
-          <p>
-            
-          </p>
-        </td>
-      </tr> -->
-
-    </tbody>
-  </table>
-
-
-
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-      <tr>
-        <td>
-          <heading>Education</heading>
-          <!-- <p>My works are covered by:</p> -->
-          <ul>
-            <li>2024.02 - 2024.07, Visiting Student Researcher at <a target="_blank"
-                href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences, Caltech</a></li>
-            <li>2021.08 - present, Ph.D. at <a target="_blank" href="https://www.cs.tsinghua.edu.cn/">Department of
-                Computer Science Technology, Tsinghua university</a></li>
-            <li>2018.08 - 2021.06, M.E. at <a target="_blank" href="https://www.thss.tsinghua.edu.cn/">
-                School of Software, Tsinghua university</a></li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-      <tr>
-        <td>
-          <heading>Talk</heading>
-          <ul>
-            <li>June 2024, <a target="_blank" href="https://dolcit.cms.caltech.edu/">Caltech DOLCIT Seminar</a></li>
-            <li>April 2024, <a target="_blank" href="http://rsrg.cms.caltech.edu/">Caltech Rigorous Systems Research
-                Group</a></li>
-            <li>March 2024, <a target="_blank" href="https://www.vision.caltech.edu/">Caltech Vision Group</a></li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-      <tr>
-        <td>
-          <heading>Teaching</heading>
-          <ul>
-            <li>Teaching Assistant, Advanced Machine Learning, 2023 Fall, Tsinghua University</li>
-            <li>Teaching Assistant, Programing and Training, 2023 Summer, Tsinghua University</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr>
-        <td style="padding:0px">
-          <br />
-          <a href="https://clustrmaps.com/site/1c1hb"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=AoDMbfXlFW0wy3ctEGGNxoAZopeKhjyVdGNuXDTuE_w&cl=ffffff" /></a>
-          <p style="text-align:right;font-size:small;">
-            Website template credit: <a target="_blank" href="https://jonbarron.info/"
-              style="text-align:right;font-size:small;">Jon Barron</a>
-          </p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  </td>
-  </tr>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
   </table>
 
 </body>
