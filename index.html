@@ -42,7 +42,7 @@
                     <name>Dan Zhang</name>
                   </p>
                   <p>
-                    I am a fourth-year phd candidate in the <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua supervised by <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focus on LLM self-training, LLM reasoning, and graph representaion learning. I was a visiting student researcher at Caltech in the <a style="text-decoration: none" target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS) Department</a>, hosted by <a style="text-decoration: none" target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>. I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a style="text-decoration: none" target="_blank" href="https://www.thss.tsinghua.edu.cn/faculty/luoping.htm">Ping Luo</a>.
+                    I am a fourth-year phd candidate in the <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua supervised by <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focuses on LLM self-training, LLM reasoning, and graph representation learning. I was a visiting student researcher at Caltech in the <a style="text-decoration: none" target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS) Department</a>, hosted by <a style="text-decoration: none" target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>. I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a style="text-decoration: none" target="_blank" href="https://www.thss.tsinghua.edu.cn/en/faculty/pingluo.htm">Ping Luo</a>.
                   </p>
 
                   <p style="text-align:center">
@@ -71,7 +71,8 @@
                   <heading>Honors and Awards</heading>
                   <ul>
                     <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">National Scholarship for Ph.D Student</a> @THUCS 2024</li>
-                    <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">Zhongshimo Scholarship for Ph.D Student</a> @THUCS 2024</li>
+                    <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">Zhong Shimo Scholarship for Ph.D Student</a> @THUCS 2024</li>
+                    <li><a target="_blank" href="https://www.cs.tsinghua.edu.cn/info/1088/6495.htm">'84' Future Innovation 2nd Scholarship </a> @THUCS 2024</li>
                     <li><a target="_blank" href="https://2023.ecmlpkdd.org/program/awards/">Best Student Paper</a> @
                       ECML-PKDD 2023</li>
                     <li>Student Travel Awards @ WWW 2023</li>
@@ -110,7 +111,6 @@
                   <a target="_blank" href="https://openreview.net/profile?id=~Tao_Feng3">Tao Feng*</a>,
                   <a target="_blank" href="https://openreview.net/profile?id=~Lilong_Xue1">Lilong Xue*</a>,
                   <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
-                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
                   <br />
                   <em>arXiv</em>, 2025
@@ -164,6 +164,66 @@
                     guidance with tree search MCTS* for collecting higher-quality reasoning traces as well as per-step
                     value to train policy and reward models.
                     <!-- We first show that the tree-search policy in ReST-MCTS* achieves higher accuracy compared with prior LLM reasoning baselines such as Best-of-N and Tree-of-Thought, within the same search budget. We then show that by using traces searched by this tree-search policy as training data, we can continuously enhance the three language models for multiple iterations, and outperform other self-training algorithms such as ReST<sup>EM</sup> and Self-Rewarding LM. -->
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="MoE-LoRA">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/MoELoRA.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2502.15828">
+                    <papertitle>A Stronger Mixture of Low-Rank Experts for Fine-Tuning Foundation Models
+                    </papertitle>
+                  </a>
+                  <br/>
+                  <a>Mengyang Sun</a>,
+                  <a>Yihao Wang</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Tao_Feng3">Tao Feng</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://zhuyf8899.github.io/">Yifan Zhu</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>ICML</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2502.15828">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/MoELoRA_Riemannian">code</a>
+                  <p>
+                    <em>gRSGD/gRAdamW</em> introduces a novel training strategy for MoE-LoRA to stabilize and enhance the feature learning process through the use of multi-space projections.
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="ZeroFlow">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/ZeroFLow.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2501.01045v3">
+                    <papertitle>ZeroFlow: Overcoming Catastrophic Forgetting is Easier than You Think</papertitle>
+                  </a>
+                  <br/>
+                  <a target="_blank" href="https://openreview.net/profile?id=~Tao_Feng3">Tao Feng</a>,
+                  <a>Wei Li</a>,
+                  <a>Didi Zhu</a>,
+                  <a>Hangjie Yuan</a>,
+                  <a target="_blank" href="https://scholar.google.com/citations?user=6v5wcQ8AAAAJ&hl=en">Wendi Zheng</a>,
+                  <strong>Dan Zhang,</strong>
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>ICML</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2501.01045v3">arXiv</a>
+                  /
+                  <a target="_blank" href="https://zeroflow-bench.github.io/">website</a>
+                  <p>
+                    We find that forward passes alone are enough to overcome forgetting and introduce the benchmark ZeroFlow to validate this.
                   </p>
                 </td>
               </tr>
@@ -635,6 +695,7 @@
               <td>
                 <heading>Talk</heading>
                 <ul>
+                  <li>March 2025, <a target="_blank" href="https://teapot123.github.io/">HINT Lab, Washington University in St. Louis (WashU)</a></li>
                   <li>June 2024, <a target="_blank" href="https://dolcit.cms.caltech.edu/">Caltech DOLCIT Seminar</a></li>
                   <li>April 2024, <a target="_blank" href="http://rsrg.cms.caltech.edu/">Caltech Rigorous Systems Research
                       Group</a></li>
