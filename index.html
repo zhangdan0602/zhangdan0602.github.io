@@ -42,7 +42,7 @@
                     <name>Dan Zhang</name>
                   </p>
                   <p>
-                    I am a final-year phd candidate in the <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua supervised by <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focuses on LLM self-training, LLM reasoning, and graph representation learning. I was a visiting student researcher at Caltech in the <a style="text-decoration: none" target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS) Department</a>, hosted by <a style="text-decoration: none" target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>. I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a style="text-decoration: none" target="_blank" href="https://www.thss.tsinghua.edu.cn/en/faculty/pingluo.htm">Ping Luo</a>.
+                    I finished my Ph.D. program and received the Doctoral degree in Engineering from the <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/">Knowledge Engineering Group (KEG)</a> at Tsinghua supervised by <a style="text-decoration: none" target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>. My research focuses on LLM self-training, scientific and Mathematical reasoning, and data mining. I was a visiting student researcher at Caltech in the <a style="text-decoration: none" target="_blank" href="https://www.cms.caltech.edu/">Computing + Mathematical Sciences (CMS) Department</a>, hosted by <a style="text-decoration: none" target="_blank" href="http://www.yisongyue.com/">Yisong Yue</a>. I recieved my Master’s Degree from School of Software, Tsinghua University in 2021, advised by <a style="text-decoration: none" target="_blank" href="https://www.thss.tsinghua.edu.cn/en/faculty/pingluo.htm">Ping Luo</a>.
                   </p>
 
                   <p style="text-align:center">
@@ -96,6 +96,35 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr id="ReST-RL">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/ReST-RL.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2508.19576">
+                    <papertitle>ReST-RL: Achieving Accurate Code Reasoning of LLMs with Optimized Self-Training and Decoding</papertitle>
+                  </a>
+                  <br/>
+                  <a target="_blank" href="https://scholar.google.com/citations?hl=zh-CN&user=W8-VhsIAAAAJ">Sining Zhoubian</a>,
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
+                  and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
+                  <br />
+                  <em>arXiv</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2508.19576">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/ReST-RL">code</a>
+                  <p></p>
+                  <p>
+                    <em>ReST-RL</em> implements a two-stage reinforcement learning pipeline for large language models (LLMs). Stage 1 — Self-Training (Policy Improvement via ReST-GRPO): Sample on program synthesis datasets, process the generated completions into compatible data, and train the policy with a optimized group-relative policy optimization routine.
+                    Stage 2 — Value Model Training and Assisted Decoding with VM-MCTS: Collect reward signals with MCTS-based sampling, process them into reward data, and train a Value Model.
+                  </p>
+                </td>
+              </tr>
+
               <tr id="PEFT">
                 <td style="padding:5px;width:17%;vertical-align:middle">
                   <div class="one">
@@ -111,6 +140,7 @@
                   <a target="_blank" href="https://openreview.net/profile?id=~Tao_Feng3">Tao Feng*</a>,
                   <a target="_blank" href="https://openreview.net/profile?id=~Lilong_Xue1">Lilong Xue*</a>,
                   <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=1zf18-oAAAAJ">Yuandong Wang</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
                   <br />
                   <em>arXiv</em>, 2025
@@ -122,6 +152,41 @@
                   <a target="_blank" href="https://awesome-peft-for-foundation-models.github.io/">homepage</a>
                   <p>
                     <em>This survey aims to provide a comprehensive overview of PEFT techniques applied to diverse FMs and address critical gaps in understanding the techniques, trends, and applications. This survey provides a valuable resource for both newcomers and experts seeking to understand and use the power of PEFT across FMs. </em>
+                  </p>
+                </td>
+              </tr>
+
+              <tr id="DataSciBench">
+                <td style="padding:5px;width:17%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/DataSciBench.png' width="170">
+                  </div>
+                </td>
+                <td style="padding:20px;width:83%;vertical-align:middle">
+                  <a target="_blank" href="https://arxiv.org/abs/2502.13897">
+                    <papertitle>DataSciBench: An LLM Agent Benchmark for Data Science</papertitle>
+                  </a>
+                  <br/>
+                  <strong>Dan Zhang,</strong>
+                  <a target="_blank" href="https://scholar.google.com/citations?hl=zh-CN&user=W8-VhsIAAAAJ"></a>Sining Zhoubian</a>,
+                  <a target="_blank" href="https://henrycai11.github.io/">Min Cai</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Fengzu_Li1">Fengzu Li</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Lekang_Yang1">Lekang Yang</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Wei_Wang51">Wei Wang</a>,
+                  <a target="_blank" href="https://openreview.net/profile?id=~Tianjiao_Dong1">Tianjiao Dong</a>,
+                  <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a>,
+                  <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>,
+                  and <a target="_blank" href="http://www.yisongyue.com">Yisong Yue</a>
+                  <br />
+                  <em>arXiv</em>, 2025
+                  <br />
+                  <a target="_blank" href="https://arxiv.org/abs/2502.13897">arXiv</a>
+                  /
+                  <a target="_blank" href="https://github.com/THUDM/DataSciBench">code</a>
+                  /
+                  <a target="_blank" href="https://huggingface.co/datasets/zd21/DataSciBench">data</a>
+                  <p>
+                    <em>DataSciBench</em> is a comprehensive benchmark for evaluating Large Language Model (LLM) capabilities in data science. This paper proposes an innovative Task - Function - Code (TFC) framework to assess each code execution outcome based on precisely defined metrics and programmatic rules. 
                   </p>
                 </td>
               </tr>
@@ -138,9 +203,9 @@
                   </a>
                   <br/>
                   <strong>Dan Zhang*,</strong>
-                  <a>Sining Zhoubian*</a>,
+                  <a target="_blank" href="https://scholar.google.com/citations?hl=zh-CN&user=W8-VhsIAAAAJ">Sining Zhoubian*</a>,
                   <a target="_blank" href="https://acbull.github.io/">Ziniu Hu*</a>,
-                  <a target="_blank" href="http://www.yisongyue.com/index.php">Yisong Yue</a>,
+                  <a target="_blank" href="http://www.yisongyue.com">Yisong Yue</a>,
                   <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>
                   <br />
@@ -185,7 +250,7 @@
                   <a target="_blank" href="https://openreview.net/profile?id=~Zhenyu_Hou1">Zhenyu Hou</a>,
                   <a>Tianrui Sun</a>,
                   <a>Jing Li</a>,
-                  <a>Fu Ling</a>,
+                  <a>Ling Fu</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>
                   <br />
                   <em>ACL</em>, 2025
@@ -217,7 +282,7 @@
                   <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=DnYC9yoAAAAJ">Hao Yu</a>,
                   <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=cuFVHjwAAAAJ">Hanyu Lai</a>,
                   <a target="_blank" href="https://scholar.google.ca/citations?hl=en&user=Z-SskNIAAAAJ">Shudan Zhang</a>,
-                  <strong>Dan Zhang,</strong>
+                  <strong>Dan Zhang</strong>,
                   <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/jietang/">Jie Tang</a>,
                   and <a target="_blank" href="https://keg.cs.tsinghua.edu.cn/yuxiao/">Yuxiao Dong</a>
                   <br />
@@ -387,7 +452,7 @@
                   <br/>
                   <strong>Dan Zhang,</strong>
                   <a target="_blank" href="https://acbull.github.io/">Ziniu Hu</a>,
-                  <a>Sining Zhoubian</a>,
+                  <a target="_blank" href="https://scholar.google.com/citations?hl=zh-CN&user=W8-VhsIAAAAJ">Sining Zhoubian</a>,
                   <a target="_blank" href="https://zxdu.xyz/">Zhengxiao Du</a>,
                   <a target="_blank" href="https://yangky11.github.io/">Kaiyu Yang</a>,
                   <a>Zihan Wang</a>,
